@@ -55,7 +55,7 @@
     "request-promise": "^4.2.2",
     "sbolgraph": "git+https://github.com/udp/sbolgraph.git",
     "sendgrid": "^4.7.1",
-    "sequelize": "^3.32.1",
+    "sequelize": "^5.15.1",
     "sequence-formatter": "^1.0.0",
     "sha1": "^1.1.1",
     "sha1-stream": "^0.2.1",
