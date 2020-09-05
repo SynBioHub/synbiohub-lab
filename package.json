@@ -32,7 +32,7 @@
     "file-type": "^7.6.0",
     "filesize": "^3.6.0",
     "glob": "^7.1.2",
-    "http-proxy": "^1.16.2",
+    "http-proxy": "^1.18.1",
     "jade": "^1.11.0",
     "jquery": "^3.3.1",
     "less-middleware": "^2.2.0",
