@@ -10,7 +10,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
     idle: 10000
   },
   logging: false,
-  storage: 'synbiohub.sqlite'
+  storage: './data/synbiohub.sqlite'
 })
 
 const User = sequelize.define('user', {
@@ -87,4 +87,3 @@ export default {
         Task: Task
     }
 };
-
