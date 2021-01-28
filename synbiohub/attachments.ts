@@ -1,6 +1,5 @@
 
 import loadTemplate from './loadTemplate';
-import sliver from './sliver';
 import config from './config';
 import * as sparql from './sparql/sparql';
 import filesize = require('filesize');
@@ -11,7 +10,7 @@ import { S2Attachment } from 'sbolgraph';
 export function addAttachmentToTopLevel(graphUri, baseUri, topLevelUri, name, uploadHash, size, attachmentType, ownedBy, caption='') {
 
     //console.log('Adding:'+name+' to:'+topLevelUri)
-    const displayId = 'attachment_' + sliver.getId()
+    const displayId = 'attachment_' + Math.floor(Math.random() * 10)
     const persistentIdentity = baseUri  + displayId
     // TODO: should get version from topLevelUri
     const version = '1'
@@ -208,5 +207,3 @@ export function getAttachmentsFromList(graphUri, attachmentList, share) {
 //     throw new Error('not implemented yet')
 
 // }
-
-

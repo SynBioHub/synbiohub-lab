@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@biocad/biocad": "git+https://github.com/ngbiocad/biocad.git",
     "@types/express": "^4.16.0",
     "@types/mz": "0.0.32",
     "alouette": "^5.5.0",
@@ -12,7 +11,6 @@
     "awesome-typescript-loader": "^5.2.1",
     "basic-auth": "^1.0.3",
     "binary-split": "^1.0.3",
-    "bioterms": "git+https://github.com/udp/bioterms.git",
     "body-parser": "^1.15.0",
     "byline": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
@@ -53,7 +51,6 @@
     "read-chunk": "^2.1.0",
     "request": "^2.79.0",
     "request-promise": "^4.2.2",
-    "sbolgraph": "git+https://github.com/udp/sbolgraph.git",
     "sendgrid": "^4.7.1",
     "sequelize": "^3.32.1",
     "sequence-formatter": "^1.0.0",
