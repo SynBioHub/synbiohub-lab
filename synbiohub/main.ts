@@ -6,13 +6,13 @@ import { fs } from "mz";
 
 
 
-if(fs.existsSync('synbiohub.sqlite') && config.get('firstLaunch') === true) {
-    fs.unlinkSync('synbiohub.sqlite')
+if(fs.existsSync('./data/synbiohub.sqlite') && config.get('firstLaunch') === true) {
+    fs.unlinkSync('./data/synbiohub.sqlite')
 }
 
 
 
-if(!fs.existsSync('synbiohub.sqlite')) {
+if(!fs.existsSync('./data/synbiohub.sqlite')) {
     db.sequelize.sync({ force: true }).then(startServer)
 } else {
     db.umzug.up().then(() => {
@@ -43,6 +43,3 @@ function initSliver() {
 
     })
 }
-
-
-
