@@ -36,7 +36,7 @@
     "less-middleware": "^2.2.0",
     "lightgallery.js": "^1.1.2",
     "main-loop": "^3.4.0",
-    "mkdirp-promise": "^5.0.1",
+    "mkdirp": "^1.0.4",
     "multer": "^1.1.0",
     "multimap": "^1.0.2",
     "multiparty": "^4.1.3",

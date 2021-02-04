@@ -4,7 +4,7 @@ import fs = require( 'mz/fs')
 import zlib = require( 'zlib')
 import shastream = require( 'sha1-stream')
 import filetype = require( 'file-type')
-import mkdirp = require( 'mkdirp-promise')
+import mkdirp = require( 'mkdirp')
 import assert = require('assert')
 import streamMeter = require( 'stream-meter')
 import stream = require('stream')
@@ -189,4 +189,3 @@ export default {
     createCompressedReadStream: createCompressedReadStream,
     createUncompressedReadStream: createUncompressedReadStream,
 };
-
