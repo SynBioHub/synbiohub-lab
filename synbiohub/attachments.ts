@@ -5,12 +5,13 @@ import * as sparql from './sparql/sparql';
 import filesize = require('filesize');
 import assert = require('assert')
 import sha1 = require('sha1');
+import uniqid = require('uniqid')
 import { S2Attachment } from 'sbolgraph';
 
 export function addAttachmentToTopLevel(graphUri, baseUri, topLevelUri, name, uploadHash, size, attachmentType, ownedBy, caption='') {
 
     //console.log('Adding:'+name+' to:'+topLevelUri)
-    const displayId = 'attachment_' + Math.floor(Math.random() * 10)
+    const displayId = 'attachment_' + uniqid()
     const persistentIdentity = baseUri  + displayId
     // TODO: should get version from topLevelUri
     const version = '1'

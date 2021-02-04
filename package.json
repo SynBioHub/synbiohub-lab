@@ -72,6 +72,7 @@
     "uglify-es": "^3.3.10",
     "umzug": "^2.0.1",
     "underscore": "^1.8.0",
+    "uniqid": "^5.2.0",
     "uuid": "^3.2.1",
     "validator": "^4.1.0",
     "value-event": "^5.1.1",
